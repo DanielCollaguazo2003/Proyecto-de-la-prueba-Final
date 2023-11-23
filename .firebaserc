@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "proyecto-prueba-final": {
+      "hosting": {
+        "proyecto_prueba": [
+          "proyecto-prueba-final"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "proyecto-prueba-final"
+  }
+}

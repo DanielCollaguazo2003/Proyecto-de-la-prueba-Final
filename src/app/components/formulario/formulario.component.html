@@ -1,0 +1,24 @@
+<div class="container">
+  <h1>Lista de tareas o notas</h1>
+  <form [formGroup]="form">
+    <div class="form-inputs">
+      <label for="nombre">Nombre</label>
+      <input type="text" formControlName="nombre" required class="input-name">
+
+      <label for="ingredientes">Fecha</label>
+      <input type="date" formControlName="fecha" class="fecha">
+
+      <label for="preparacion">Contenido</label>
+      <textarea formControlName="contenido" rows="4" required class="area-contenido"></textarea>
+
+      <label for="etiquetas">Etiquetas</label>
+      <textarea formControlName="etiquetas" rows="4" required class="area-etiquetas"></textarea>
+    </div>
+    <div class="buttons">
+      <button (click)="agregartarea()">Crear</button>
+      <button>Actualizar</button>
+      <button>Eliminar</button>
+    </div>
+  </form>
+</div>
+

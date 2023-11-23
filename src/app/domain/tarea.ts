@@ -1,0 +1,7 @@
+export interface Tarea  {
+  uid: string;
+  nombre: string;
+  fecha: Date;
+  contenido: string;
+  etiquetas: string;
+}

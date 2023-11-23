@@ -1,0 +1,8 @@
+<div class="container">
+  <ul>
+    <li *ngFor="let tarea of listaTareas">
+        <a >{{tarea.nombre}}</a>
+        <button (click)="verTarea()">Ver</button>
+    </li>
+</ul>
+</div>
